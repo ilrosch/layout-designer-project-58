@@ -91,6 +91,14 @@ section {
   color: var(--transparent-dark);
 }
 
+.transparent-white {
+  color: var(--transparent-white);
+}
+
+.brown-color {
+  color: var(--brown);
+}
+
 .tr-color {
   transition: color 0.3s;
 }
