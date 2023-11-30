@@ -87,6 +87,10 @@ section {
   color: var(--white);
 }
 
+.transparent-dark {
+  color: var(--transparent-dark);
+}
+
 .tr-color {
   transition: color 0.3s;
 }
@@ -108,6 +112,14 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
+}
+
+.bg-white {
+  background-color: var(--light);
+}
+
+.bg-brown {
+  background-color: var(--brown);
 }
 
 .btn {
@@ -159,9 +171,6 @@ section {
   margin-bottom: 40px;
 }
 
-.home {
-  background-color: var(--light);
-}
 .home__header {
   position: relative;
   height: 440px;
@@ -227,6 +236,36 @@ section {
   font-family: "Neucha";
   font-size: 64px;
   line-height: normal;
+}
+
+.post__header {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+.post__header img {
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.15);
+}
+.post__text {
+  font-family: "Neucha";
+  font-size: 34px;
+  line-height: 120%;
+}
+.post__title {
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.post__title--white {
+  background: var(--white);
+}
+.post__title--brown {
+  background: var(--brown);
 }
 
 /*# sourceMappingURL=style.css.map */
