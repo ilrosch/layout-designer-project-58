@@ -28,7 +28,7 @@
               <p class="mb-20">Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
 
               <p class="mb-40">Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
-              <a href="#" class="btn btn-text">подробнее</a>
+              <a href="#navigation" class="btn btn-text">подробнее</a>
             </div>
           </div>
         </div>
@@ -49,14 +49,14 @@
         </div>
       </section>
 
-      <section class="distortions">
+      <section class="navigation" id="navigation">
         <div class="container">
-          <ul class="navigation">
+          <ul class="navigation__ul">
             <li class="navigation__li navigation__li--not-bg">
               <h3 class="navigation__title white-color"><span class="basic-color">5 когнитивных искажений</span> <br />о существовании которых стоит помнить</h3>
             </li>
 
-            <a href="#">
+            <a href="#ikea-effect">
               <li class="navigation__li">
                 <div class="navigation__number tr-color mb-40">1</div>
                 <h3 class="basic-color tr-color mb-16">Эффект ИКЕА</h3>
@@ -64,7 +64,7 @@
               </li>
             </a>
 
-            <a href="#">
+            <a href="#premature-optimization">
               <li class="navigation__li">
                 <div class="navigation__number tr-color mb-40">2</div>
                 <h3 class="basic-color tr-color mb-16">Преждевременная оптимизация</h3>
@@ -72,7 +72,7 @@
               </li>
             </a>
 
-            <a href="#">
+            <a href="#distortion-of-novelty">
               <li class="navigation__li">
                 <div class="navigation__number tr-color mb-40">3</div>
                 <h3 class="basic-color tr-color mb-16">Искажение новизны</h3>
@@ -80,7 +80,7 @@
               </li>
             </a>
 
-            <a href="#">
+            <a href="#hyperbolic-depreciation">
               <li class="navigation__li">
                 <div class="navigation__number tr-color mb-40">4</div>
                 <h3 class="basic-color tr-color mb-12">Гиперболическое обесценивание</h3>
@@ -88,7 +88,7 @@
               </li>
             </a>
 
-            <a href="#">
+            <a href="#errors-in-planning">
               <li class="navigation__li">
                 <div class="navigation__number tr-color mb-40">5</div>
                 <h3 class="basic-color tr-color mb-16">Ошибка планирования</h3>
@@ -240,6 +240,31 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__body">
+          <h3 class="white-color">
+            Хотите узнать больше? <br />
+            Подпишитесь на обновления
+          </h3>
+
+          <form action="#" class="form">
+            <label for="email" class="white-color">Электронная почта</label>
+            <div>
+              <input type="email" id="email" placeholder="Ваша электронная почта" />
+              <button type="submit" class="btn btn-submit"></button>
+            </div>
+            <p class="white-color">Подписываясь, вы принимаете <a href="#">правила сервиса</a></p>
+          </form>
+        </div>
+
+        <div class="footer__footer">
+          <div class="footer__text mb-16">© 2023 Илья Росчихмаров</div>
+          <div class="footer__text mb-16">По материалам статьи <a href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive Cognitive Biases in Programming</a></div>
+          <div class="footer__text"><a href="https://ru.hexlet.io/">Курсы программирования Hexlet</a></div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
