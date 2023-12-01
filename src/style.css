@@ -218,7 +218,8 @@ section {
 
 .what {
   z-index: 2;
-  margin-bottom: -200px;
+  padding-bottom: 0;
+  margin-bottom: -100px;
 }
 .what__header {
   text-align: center;
@@ -230,7 +231,7 @@ section {
 }
 
 .navigation {
-  padding-top: 216px;
+  padding-top: 200px;
   background: var(--basic-dark);
 }
 .navigation__ul {
@@ -264,6 +265,7 @@ section {
   font-family: "Neucha";
   font-size: 64px;
   line-height: normal;
+  margin-bottom: 25px;
 }
 
 .post__header {
