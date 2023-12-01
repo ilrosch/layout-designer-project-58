@@ -75,6 +75,7 @@ a {
   text-decoration: none;
 }
 
+header,
 section {
   position: relative;
   width: 100%;
