@@ -142,6 +142,9 @@ section {
   cursor: pointer;
 }
 .btn-text {
+  display: block;
+  width: 148px;
+  height: 49px;
   font-family: "Open Sans";
   font-size: 16px;
   font-style: normal;
@@ -224,8 +227,6 @@ section {
   text-align: center;
 }
 .video iframe {
-  position: relative;
-  z-index: 2;
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
   display: block;
   margin: 0 auto;
