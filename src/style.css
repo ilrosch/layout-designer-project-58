@@ -216,15 +216,14 @@ section {
   height: 525px;
 }
 
-.what {
+.video {
   z-index: 2;
   padding-bottom: 0;
-  margin-bottom: -100px;
 }
-.what__header {
+.video__header {
   text-align: center;
 }
-.what iframe {
+.video iframe {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
   display: block;
   margin: 0 auto;
@@ -233,6 +232,7 @@ section {
 .navigation {
   padding-top: 200px;
   background: var(--basic-dark);
+  margin-top: -100px;
 }
 .navigation__ul {
   display: flex;
