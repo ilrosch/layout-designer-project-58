@@ -202,7 +202,7 @@ section {
 
 .home__header {
   position: relative;
-  height: 440px;
+  height: 458px;
 }
 .home__header h1 {
   position: relative;
@@ -210,7 +210,7 @@ section {
 }
 .home__img {
   position: absolute;
-  top: -55px;
+  top: -45px;
   right: -270px;
   width: auto;
   height: 525px;
