@@ -155,7 +155,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70px;
+  width: 62px;
   height: 50px;
 }
 .btn-submit::before {
@@ -301,7 +301,7 @@ section {
 }
 .footer__body {
   padding: 38px 55px 40px;
-  margin-bottom: 60px;
+  margin-bottom: 78px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -331,10 +331,11 @@ section {
 .form div {
   display: flex;
   align-items: center;
+  margin-top: 9px;
   margin-bottom: 2px;
 }
 .form input {
-  width: 420px;
+  width: 423px;
   height: 50px;
   padding: 15px;
   border: 1px solid #e3e3e3;
