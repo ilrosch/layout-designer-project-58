@@ -211,7 +211,7 @@ section {
 }
 .home__header {
   position: relative;
-  height: 458px;
+  height: 460px;
 }
 .home__header h1 {
   position: relative;
@@ -310,7 +310,7 @@ section {
 }
 .footer__body {
   padding: 38px 55px 40px;
-  margin-bottom: 78px;
+  margin-bottom: 76px;
   display: flex;
   justify-content: space-between;
   align-items: center;
