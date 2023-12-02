@@ -182,6 +182,10 @@ section {
   width: 100%;
 }
 
+.mb-12 {
+  margin-bottom: 12px;
+}
+
 .mb-14 {
   margin-bottom: 14px;
 }
@@ -237,7 +241,7 @@ section {
 .navigation {
   padding-top: 200px;
   background: var(--basic-dark);
-  margin-top: -100px;
+  margin-top: -96px;
 }
 .navigation__ul {
   display: flex;
