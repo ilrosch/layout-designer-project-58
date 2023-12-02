@@ -149,6 +149,7 @@ section {
   font-style: normal;
   font-weight: 700;
   line-height: 160%;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
   color: var(--white);
 }
@@ -190,6 +191,10 @@ section {
   margin-bottom: 14px;
 }
 
+.mb-15 {
+  margin-bottom: 15px;
+}
+
 .mb-16 {
   margin-bottom: 16px;
 }
@@ -211,7 +216,7 @@ section {
 }
 .home__header {
   position: relative;
-  height: 460px;
+  height: 458px;
 }
 .home__header h1 {
   position: relative;
@@ -246,7 +251,7 @@ section {
 .navigation__ul {
   display: flex;
   justify-content: space-between;
-  gap: 20px 30px;
+  gap: 18px 30px;
   flex-wrap: wrap;
   list-style: none;
 }
