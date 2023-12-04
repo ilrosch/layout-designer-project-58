@@ -80,6 +80,31 @@ section {
   width: 100%;
   height: auto;
   padding: 100px 0;
+  overflow: hidden;
+}
+
+#ikea-effect {
+  min-height: 905px;
+  max-height: 905px;
+}
+
+#premature-optimization {
+  min-height: 855px;
+}
+
+#distortion-of-novelty {
+  min-height: 880px;
+  max-height: 880px;
+}
+
+#hyperbolic-depreciation {
+  min-height: 937px;
+  max-height: 937px;
+}
+
+#errors-in-planning {
+  min-height: 919px;
+  max-height: 919px;
 }
 
 .basic-color {
