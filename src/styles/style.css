@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:wght@400;700&display=swap");
 
-:root
+:root 
 {
   --white: #fff;
   --black: #000;
@@ -15,19 +15,19 @@
   --blue: #1085c5;
 }
 
-*
+* 
 {
   box-sizing: border-box;
 }
 
-*:not(ul, li)
+*:not(ul, li) 
 {
   padding: 0;
   margin: 0;
 }
 
 html,
-body
+body 
 {
   position: relative;
   width: 100%;
@@ -40,7 +40,7 @@ body
   color: var(--dark);
 }
 
-html
+html 
 {
   scroll-behavior: smooth;
 }
@@ -48,45 +48,45 @@ html
 h1,
 h2,
 h3,
-.subtitle
+.subtitle 
 {
   font-family: Neucha, cursive;
   font-weight: 400;
   line-height: 1.2em;
 }
 
-h1
+h1 
 {
   font-size: 72px;
 }
 
-h2
+h2 
 {
   font-size: 60px;
 }
 
-h3
+h3 
 {
   font-size: 34px;
 }
 
-.subtitle
+.subtitle 
 {
   font-size: 24px;
 }
 
-p
+p 
 {
   color: var(--dark);
 }
 
-a
+a 
 {
   text-decoration: none;
 }
 
 header,
-section
+section 
 {
   position: relative;
   width: 100%;
@@ -94,44 +94,44 @@ section
   padding: 100px 0;
 }
 
-.basic-color
+.basic-color 
 {
   color: var(--basic);
 }
 
-.white-color
+.white-color 
 {
   color: var(--white);
 }
 
-.transparent-dark
+.transparent-dark 
 {
   color: var(--transparent-dark);
 }
 
-.transparent-white
+.transparent-white 
 {
   color: var(--transparent-white);
 }
 
-.brown-color
+.brown-color 
 {
   color: var(--brown);
 }
 
-.tr-color
+.tr-color 
 {
   transition: color 0.3s;
 }
 
-.container
+.container 
 {
   position: relative;
   width: 1110px;
   margin: 0 auto;
 }
 
-.bg::before
+.bg::before 
 {
   content: "";
   position: absolute;
@@ -145,17 +145,17 @@ section
   opacity: 0.1;
 }
 
-.bg-white
+.bg-white 
 {
   background-color: var(--light);
 }
 
-.bg-brown
+.bg-brown 
 {
   background-color: var(--brown);
 }
 
-.btn
+.btn 
 {
   border: none;
   padding: 12px 24px;
@@ -164,7 +164,7 @@ section
   cursor: pointer;
 }
 
-.btn-text
+.btn-text 
 {
   display: block;
   width: 148px;
@@ -177,7 +177,7 @@ section
   color: var(--white);
 }
 
-.btn-submit
+.btn-submit 
 {
   position: relative;
   display: flex;
@@ -187,7 +187,7 @@ section
   height: 50px;
 }
 
-.btn-submit::before
+.btn-submit::before 
 {
   content: "";
   position: absolute;
@@ -197,92 +197,92 @@ section
   background-repeat: no-repeat;
 }
 
-.btn:hover
+.btn:hover 
 {
   background: var(--basic-hover);
 }
 
-.text-block
+.text-block 
 {
   display: flex;
   justify-content: space-between;
   gap: 30px;
 }
 
-.text-block-col
+.text-block-col 
 {
   width: calc(50% - 15px);
 }
 
-.mb-12
+.mb-12 
 {
   margin-bottom: 12px;
 }
 
-.mb-13
+.mb-13 
 {
   margin-bottom: 13px;
 }
 
-.mb-14
+.mb-14 
 {
   margin-bottom: 14px;
 }
 
-.mb-15
+.mb-15 
 {
   margin-bottom: 15px;
 }
 
-.mb-16
+.mb-16 
 {
   margin-bottom: 16px;
 }
 
-.mb-18
+.mb-18 
 {
   margin-bottom: 18px;
 }
 
-.mb-20
+.mb-20 
 {
   margin-bottom: 20px;
 }
 
-.mb-30
+.mb-30 
 {
   margin-bottom: 30px;
 }
 
-.mb-40
+.mb-40 
 {
   margin-bottom: 40px;
 }
 
-.pb-116
+.pb-116 
 {
   padding-bottom: 116px;
 }
 
-.home
+.home 
 {
   min-height: 910px;
   overflow-x: hidden;
 }
 
-.home-header
+.home-header 
 {
   position: relative;
   height: 458.4px;
 }
 
-.home-header h1
+.home-header h1 
 {
   position: relative;
   z-index: 2;
 }
 
-.home-img
+.home-img 
 {
   position: absolute;
   top: -45px;
@@ -291,31 +291,31 @@ section
   height: 525px;
 }
 
-.video
+.video 
 {
   z-index: 2;
   margin-bottom: -176px;
 }
 
-.video-header
+.video-header 
 {
   text-align: center;
 }
 
-.video iframe
+.video iframe 
 {
   filter: drop-shadow(0 16px 32px rgb(0 0 0 / 15%));
   display: block;
   margin: 0 auto;
 }
 
-.navigation
+.navigation 
 {
   padding-top: 200px;
   background: var(--basic-dark);
 }
 
-.navigation-body
+.navigation-body 
 {
   display: flex;
   justify-content: space-between;
@@ -323,18 +323,18 @@ section
   flex-wrap: wrap;
 }
 
-.navigation-item
+.navigation-item 
 {
   max-width: 350px;
   width: 100%;
 }
 
-.navigation-title
+.navigation-title 
 {
   font-size: 52px;
 }
 
-.navigation-number
+.navigation-number 
 {
   color: var(--basic-dark);
   font-family: Neucha, cursive;
@@ -342,13 +342,13 @@ section
   line-height: 1;
 }
 
-.mh-323
+.mh-323 
 {
   min-height: 323px;
   max-height: 323px;
 }
 
-.post-header
+.post-header 
 {
   display: flex;
   justify-content: space-between;
@@ -356,19 +356,19 @@ section
   margin-bottom: 100px;
 }
 
-.post-header img
+.post-header img 
 {
   box-shadow: 0 16px 32px 0 rgb(0 0 0 / 15%);
 }
 
-.post-text
+.post-text 
 {
   font-family: Neucha, cursive;
   font-size: 34px;
   line-height: 120%;
 }
 
-.post-title
+.post-title 
 {
   padding: 5px 10px;
   font-size: 14px;
@@ -377,22 +377,22 @@ section
   text-transform: uppercase;
 }
 
-.post-title-white
+.post-title-white 
 {
   background: var(--white);
 }
 
-.post-title-brown
+.post-title-brown 
 {
   background: var(--brown);
 }
 
-.footer
+.footer 
 {
   padding: 100px 0;
 }
 
-.footer-body
+.footer-body 
 {
   padding: 40px 55px;
   margin-bottom: 78px;
@@ -402,7 +402,7 @@ section
   background: var(--basic-dark);
 }
 
-.footer-text
+.footer-text 
 {
   color: var(--black);
   font-size: 14px;
@@ -410,25 +410,25 @@ section
   text-align: center;
 }
 
-.footer-text a
+.footer-text a 
 {
   color: var(--blue);
   text-decoration: underline;
 }
 
-.form
+.form 
 {
   width: auto;
 }
 
-.form label
+.form label 
 {
   font-size: 18px;
   line-height: 160%;
   margin-bottom: 9px;
 }
 
-.form div
+.form div 
 {
   display: flex;
   align-items: center;
@@ -436,7 +436,7 @@ section
   margin-bottom: 2px;
 }
 
-.form input
+.form input 
 {
   width: 423px;
   height: 50px;
@@ -445,7 +445,7 @@ section
   background: var(--white);
 }
 
-.form input::placeholder
+.form input::placeholder 
 {
   color: #757575;
   font-size: 13.1px;
@@ -454,33 +454,33 @@ section
   line-height: 160%;
 }
 
-.form p
+.form p 
 {
   font-size: 12px;
   line-height: 160%;
 }
 
-.form p a
+.form p a 
 {
   color: inherit;
   text-decoration: underline;
 }
 
-.navigation-item:not(.navigation-item-not-bg)
+.navigation-item:not(.navigation-item-not-bg) 
 {
   padding: 24px;
   background: var(--light);
   transition: background 0.3s, color 0.3s;
 }
 
-.navigation-item:not(.navigation-item-not-bg):hover
+.navigation-item:not(.navigation-item-not-bg):hover 
 {
   background: var(--basic);
 }
 
 .navigation-item:not(.navigation-item-not-bg):hover > div,
 .navigation-item:not(.navigation-item-not-bg):hover > h3,
-.navigation-item:not(.navigation-item-not-bg):hover > p
+.navigation-item:not(.navigation-item-not-bg):hover > p 
 {
   color: var(--white);
 }
