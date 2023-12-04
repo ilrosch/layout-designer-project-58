@@ -225,6 +225,7 @@ section {
 }
 
 .home {
+  min-height: 910px;
   overflow-x: hidden;
 }
 .home__header {
@@ -245,7 +246,7 @@ section {
 
 .video {
   z-index: 2;
-  margin-bottom: -193px;
+  margin-bottom: -200px;
 }
 .video__header {
   text-align: center;
